@@ -9,10 +9,6 @@ public class Carta {
         this.valor = valor;
     }
 
-//    public Carta criaCarta(String nome, String face, String naipe, int valor){
-//        return new Carta()
-//    }
-
     @Override
     public String toString() {
         return face + " de " + naipe;
