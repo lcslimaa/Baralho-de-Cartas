@@ -9,6 +9,14 @@ public class Carta {
         this.valor = valor;
     }
 
+    public int getValor() {
+        return valor;
+    }
+
+    public String getNaipe(){
+        return naipe;
+    }
+
     @Override
     public String toString() {
         return face + " de " + naipe;

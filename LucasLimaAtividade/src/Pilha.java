@@ -19,7 +19,7 @@ public class Pilha<T> {
     public void push(Object info) {
         if (!isFull()) {
             pilha[++topo] = info;
-        } else {        /* pilha cheia */
+        } else {
             System.out.println("Pilha cheia");
         }
     }
@@ -46,6 +46,7 @@ public class Pilha<T> {
                 System.out.println(pilha[i]);
             }
         }
+        System.out.println("\n");
 
     }
 

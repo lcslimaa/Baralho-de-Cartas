@@ -8,8 +8,7 @@ public class Baralho {
         String[] faces = {"As", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Valete", "Dama", "Rei"};
         String[] naipes = {"Copas", "Paus", "Ouros", "Espadas"};
 
-        Pilha<Carta> cartaPilha = new Pilha<>(52);
-        this.baralho = cartaPilha;
+        this.baralho = new Pilha<>(52);
 
         int cont = 0;
         while (!baralho.isFull()) {
